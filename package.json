@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-bootcamp-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/3daddict/nodejs-bootcamp-server.git",
+  "author": "3daddict <print@3daddict.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
