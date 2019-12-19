@@ -13,7 +13,7 @@ exports.getCourses = asyncHandler(async (req, res, next) => {
 
         return res.status(200).json({
             success: true,
-            counr: courses.length,
+            count: courses.length,
             data: courses
         })
     } else {
